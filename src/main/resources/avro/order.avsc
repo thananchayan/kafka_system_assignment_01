@@ -1,0 +1,20 @@
+
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "com.thana.kafka_assignment_01.model",
+  "fields": [
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "product",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "float"
+    }
+  ]
+}
